@@ -39,7 +39,7 @@ h2 {
 }
 
 figcaption {
-  font-family: "PT Serif";
+  font-family: "PT Serif", serif;
   font-style: italic;
   text-align: center;
 }
