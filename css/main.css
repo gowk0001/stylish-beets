@@ -8,6 +8,16 @@ html {
   box-sizing: inherit;
 }
 
+nav {
+  color: #8f2440;
+  font-family: "PT Sans", sans-serif;
+  font-size: 1.125rem;
+}
+
+.nav {
+  list-style-type: none;
+}
+
 img {
   width: 100%;
 }
@@ -36,6 +46,8 @@ figcaption {
 
 .time {
   font-size: 1.125rem;
+  font-style: normal;
+  font-weight: bold;
 }
 
 blockquote {
@@ -57,6 +69,10 @@ blockquote {
   font-style: italic;
 }
 
+dt {
+  font-weight: bold;
+}
+
 ul {
   list-style: circle;
   font-size: .8rem;
@@ -64,10 +80,11 @@ ul {
 
 a {
   text-decoration: none;
+  color: #8f2440;
 }
 
 a:hover {
   background-color: inherit;
-  border-color: #8f2440;
+  border-color: #3f1622;
   text-decoration: none;
 }
